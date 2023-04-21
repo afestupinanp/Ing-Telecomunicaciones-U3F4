@@ -1,0 +1,7 @@
+.text-justify {
+    text-align: justify;
+}
+
+.clickeable:hover {
+    cursor: pointer;
+}
