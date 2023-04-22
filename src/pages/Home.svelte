@@ -1,5 +1,8 @@
 <script>
-
+    import { onMount } from "svelte";
+    onMount(() => {
+        document.querySelector('title').innerHTML = 'Tema 2: Teleasistencia, teletrabajo, telemedicina, teleeducación y comercio electrónico - Inicio';
+    });
 </script>
 
 <div class="row">

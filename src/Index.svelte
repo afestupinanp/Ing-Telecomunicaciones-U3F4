@@ -7,8 +7,8 @@
 
 </script>
 
+<Navbar />
 <main class="container-fluid">
-    <Navbar />
     <div style="padding-top: 80px; padding-bottom: 80px;">
         <Router {routes} />
     </div>

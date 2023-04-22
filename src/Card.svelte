@@ -2,7 +2,7 @@
     export let titulo = '';
 </script>
 
-<div class="card">
+<div class="card shadow-lg">
     <h5 class="card-header">{titulo}</h5>
     <div class="card-body">
         <p class="card-text">

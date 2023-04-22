@@ -8,9 +8,13 @@
     export let shadow = true;
 </script>
 
-<div class="text-center py-3">
-    <img on:click={click} {width} {height} src={url} {alt} class="img-fluid {shadow ? 'shadow-sm' : ''} {click ? 'clickeable' : ''}" />
+<div class="row">
+    <div class="col-12">
+        <img on:click={click} {width} {height} src={url} {alt} class="img-fluid {shadow ? 'shadow-sm' : ''} {click ? 'clickeable' : ''}" />
+    </div>
     {#if subtitulo}
-        <small>{subtitulo}</small>
+        <div class="col-12 text-center py-3">
+            <small>{subtitulo}</small>
+        </div>
     {/if}
 </div>
