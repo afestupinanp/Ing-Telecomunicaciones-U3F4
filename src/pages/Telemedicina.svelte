@@ -48,7 +48,7 @@
                     <p>La telemedicina permite a los doctores diagnosticar a los pacientes de manera más eficiente, lo que reduce los traslados y remisiones innecesarias, ahorrando costos y, al mismo tiempo, aumentando el comfort y la accesibilidad de los usuarios a servicios de salud de alta calidad.</p>
                 </div>
                 <div class="col-12 text-center">
-                    <Imagen alt="Imagen descriptiva del teletrabajo." subtitulo="Fuente: Blog Yunbit. (30 de junio del 2020)" shadow={true} url="https://www.yunbitsoftware.com/blog/wp-content/uploads/2020/06/3641599-scaled-e1593532828313.jpg" width="400" height="400" />
+                    <Imagen alt="Imagen descriptiva de la telemedicina." subtitulo="Fuente: AARP.org. (31 de agosto del 2020)" shadow={true} url="https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2020/08/1140-telehealth-get-started-esp.jpg" width="400" height="400" />
                 </div>
                 <div class="col-12 text-justify">
                     <h5>¿Por qué implementar la telemedicina?</h5>

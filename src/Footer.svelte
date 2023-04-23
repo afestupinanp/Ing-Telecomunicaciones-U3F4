@@ -10,7 +10,7 @@
             <Imagen shadow={false} width="100" height="100" click={() => window.open("https://www.unad.edu.co", '_blank')} url="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_de_la_UNAD.svg" />
             Andrés Felipe Estupiñán Peláez<br/>
             Universidad Nacional Abierta y a Distancia, {year}<br/>
-            <a href="https://https://github.com/afestupinanp/Ing-Telecomunicaciones-U3F4">Volver a GitHub</a>
+            <a href="https://github.com/afestupinanp/Ing-Telecomunicaciones-U3F4">Volver a GitHub</a>
         </div>
     </div>
 </footer>

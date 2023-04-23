@@ -1,5 +1,6 @@
 import { wrap } from "svelte-spa-router/wrap";
 import LoadingComponent from './Loading.svelte';
+import NotFound from './NotFound.svelte';
 
 const routes = {
     '/': wrap({'asyncComponent': () => import('./pages/Home.svelte'), 'loadingComponent': LoadingComponent}),
@@ -7,7 +8,8 @@ const routes = {
     '/teletrabajo': wrap({'asyncComponent': () => import('./pages/Teletrabajo.svelte'), 'loadingComponent': LoadingComponent}),
     '/telemedicina': wrap({'asyncComponent': () => import('./pages/Telemedicina.svelte'), 'loadingComponent': LoadingComponent}),
     '/teleeducacion': wrap({'asyncComponent': () => import('./pages/Teleeducacion.svelte'), 'loadingComponent': LoadingComponent}),
-    '/comercio-electronico': wrap({'asyncComponent': () => import('./pages/ComercioElectronico.svelte'), 'loadingComponent': LoadingComponent})
+    '/comercio-electronico': wrap({'asyncComponent': () => import('./pages/ComercioElectronico.svelte'), 'loadingComponent': LoadingComponent}),
+    '*': NotFound
 };
 
 export default routes;
